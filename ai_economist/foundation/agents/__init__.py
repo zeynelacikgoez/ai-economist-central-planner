@@ -4,9 +4,9 @@
 # For full license text, see the LICENSE file in the repo root
 # or https://opensource.org/licenses/BSD-3-Clause
 
-from ai_economist.foundation.base.base_agent import agent_registry
+from .planned_economy_agent import PlannedEconomyAgent
 
-from . import mobiles, planners
+__all__ = ['PlannedEconomyAgent']
 
 # Import files that add Agent class(es) to agent_registry
 # -------------------------------------------------------
